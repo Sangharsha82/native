@@ -1,0 +1,60 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Expo/React Native specific (apexdrive folder)
+apexdrive/.expo/
+apexdrive/.expo-shared/
+apexdrive/web-build/
+apexdrive/android/
+apexdrive/ios/
+apexdrive/*.expo
+apexdrive/*.expo-shared
+
+# Build artifacts
+apexdrive/build/
+apexdrive/dist/
+server/build/
+server/dist/
+
+# Environment files
+apexdrive/.env
+server/.env
+apexdrive/.env.local
+server/.env.local
+apexdrive/.env.*.local
+server/.env.*.local
+
+# Logs
+apexdrive/*.log
+server/*.log
+apexdrive/*.tlog
+server/*.tlog
+apexdrive/*.log.*
+server/*.log.*
+
+# Temporary files
+apexdrive/*.tmp
+server/*.tmp
+apexdrive/*.swp
+server/*.swp
+apexdrive/*.swo
+server/*.swo
+apexdrive/.DS_Store
+server/.DS_Store
+apexdrive/Thumbs.db
+server/Thumbs.db
+
+# IDE/Editor specific
+apexdrive/.vscode/
+server/.vscode/
+apexdrive/.idea/
+server/.idea/
+apexdrive/*.iml
+server/*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
